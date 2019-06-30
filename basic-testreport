@@ -1,0 +1,485 @@
+Welcome to Jaime's test report for the Basic Level!
+
+1.- Main menu.
+        Endpoint: "" or "/"
+        Output:
+            <!DOCTYPE html>
+            <html lang="en" dir="ltr">
+              <head>
+                <meta charset="utf-8">
+                <title>Main page</title>
+              </head>
+              <body>
+                <h1>Main Server Page</h1>
+                <p> In this server, you'll be able to browse human and vertebrates genome,
+                    obtain many data and also make some calculations. </p>
+
+                <h3>BASIC LEVEL: </h3>
+                <p>Choose from the next three options:</p>
+                  <a href= "listSpeciesMain">List Species</a>
+                  <p><p>
+                  <a href= "karyotype">Karyotype</a>
+                  <p><p>
+                  <a href= "chromosomeLength">Chromosome Length</a>
+                  <p><p>
+
+2.-  /listSpecies
+    2.1.- Endpoint: "/listSpecies"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <body>
+                <h2>List Species page</h2>
+                <p>Species:</p><p>cyanistes_caeruleus<p>
+                <p>mustela_putorius_furo<p>
+                <p>neovison_vison<p>
+                <p>haplochromis_burtoni<p>
+                <p>anas_platyrhynchos_platyrhynchos<p>
+                <p>gallus_gallus<p>
+                <p>notamacropus_eugenii<p>
+                <p>calidris_pygmaea<p>
+                <p>gopherus_agassizii<p>
+                <p>mus_musculus_casteij<p>
+                <p>rattus_norvegicus<p>
+                <p>otolemur_garnettii<p>
+                <p>crocodylus_porosus<p>
+                <p>caenorhabditis_elegans<p>
+                <p>pan_troglodytes<p>
+                <p>felis_catus<p>
+                <p>amphilophus_citrinellus<p>
+                <p>chinchilla_lanigera<p>
+                <p>macaca_nemestrina<p>
+                <p>bison_bison_bison<p>
+                <p>meriones_unguiculatus<p>
+                <p>dipodomys_ordii<p>
+                <p>peromyscus_maniculatus_bairdii<p>
+                <p>echinops_telfairi<p>
+                <p>manacus_vitellinus<p>
+                <p>microtus_ochrogaster<p>
+                <p>mus_musculus_nodshiltj<p>
+                <p>hippocampus_comes<p>
+                <p>cercocebus_atys<p>
+                <p>procavia_capensis<p>
+                <p>tetraodon_nigroviridis<p>
+                <p>apteryx_haastii<p>
+                <p>rhinopithecus_bieti<p>
+                <p>sus_scrofa<p>
+                <p>gorilla_gorilla<p>
+                <p>junco_hyemalis<p>
+                <p>anser_brachyrhynchus<p>
+                <p>apteryx_owenii<p>
+                <p>oryzias_melastigma<p>
+                <p>serinus_canaria<p>
+                <p>oryzias_latipes_hsok<p>
+                <p>mus_musculus_dba2j<p>
+                <p>tursiops_truncatus<p>
+                <p>nannospalax_galili<p>
+                <p>scleropages_formosus<p>
+                <p>xenopus_tropicalis<p>
+                <p>gasterosteus_aculeatus<p>
+                <p>ciona_savignyi<p>
+                <p>cynoglossus_semilaevis<p>
+                <p>notechis_scutatus<p>
+                <p>colobus_angolensis_palliatus<p>
+                <p>mus_musculus_wsbeij<p>
+                <p>acanthochromis_polyacanthus<p>
+                <p>poecilia_mexicana<p>
+                <p>homo_sapiens<p>
+                <p>dasypus_novemcinctus<p>
+                <p>cavia_porcellus<p>
+                <p>mus_musculus_fvbnj<p>
+                <p>mastacembelus_armatus<p>
+                <p>esox_lucius<p>
+                <p>mus_musculus_lpj<p>
+                <p>oryctolagus_cuniculus<p>
+                <p>amphiprion_ocellaris<p>
+                <p>lepisosteus_oculatus<p>
+                <p>monopterus_albus<p>
+                <p>ornithorhynchus_anatinus<p>
+                <p>ochotona_princeps<p>
+                <p>macaca_fascicularis<p>
+                <p>mandrillus_leucophaeus<p>
+                <p>propithecus_coquereli<p>
+                <p>mesocricetus_auratus<p>
+                <p>papio_anubis<p>
+                <p>macaca_mulatta<p>
+                <p>ficedula_albicollis<p>
+                <p>pteropus_vampyrus<p>
+                <p>seriola_lalandi_dorsalis<p>
+                <p>calidris_pugnax<p>
+                <p>theropithecus_gelada<p>
+                <p>carlito_syrichta<p>
+                <p>xiphophorus_couchianus<p>
+                <p>astyanax_mexicanus<p>
+                <p>panthera_tigris_altaica<p>
+                <p>parus_major<p>
+                <p>mus_musculus_c3hhej<p>
+                <p>mus_pahari<p>
+                <p>spermophilus_dauricus<p>
+                <p>myotis_lucifugus<p>
+                <p>oryzias_latipes_hni<p>
+                <p>aotus_nancymaae<p>
+                <p>mus_caroli<p>
+                <p>poecilia_formosa<p>
+                <p>heterocephalus_glaber_male<p>
+                <p>rhinopithecus_roxellana<p>
+                <p>canis_lupus_dingo<p>
+                <p>zonotrichia_albicollis<p>
+                <p>scophthalmus_maximus<p>
+                <p>mus_musculus_c57bl6nj<p>
+                <p>ciona_intestinalis<p>
+                <p>heterocephalus_glaber_female<p>
+                <p>fundulus_heteroclitus<p>
+                <p>ursus_maritimus<p>
+                <p>cavia_aperea<p>
+                <p>sorex_araneus<p>
+                <p>vicugna_pacos<p>
+                <p>saccharomyces_cerevisiae<p>
+                <p>piliocolobus_tephrosceles<p>
+                <p>mus_musculus_cbaj<p>
+                <p>oryzias_latipes<p>
+                <p>salvator_merianae<p>
+                <p>petromyzon_marinus<p>
+                <p>taeniopygia_guttata<p>
+                <p>mus_musculus_aj<p>
+                <p>cricetulus_griseus_crigri<p>
+                <p>ailuropoda_melanoleuca<p>
+                <p>mus_musculus_akrj<p>
+                <p>eptatretus_burgeri<p>
+                <p>panthera_pardus<p>
+                <p>mola_mola<p>
+                <p>poecilia_latipinna<p>
+                <p>chelonoidis_abingdonii<p>
+                <p>bos_mutus<p>
+                <p>choloepus_hoffmanni<p>
+                <p>lonchura_striata_domestica<p>
+                <p>fukomys_damarensis<p>
+                <p>kryptolebias_marmoratus<p>
+                <p>astatotilapia_calliptera<p>
+                <p>tupaia_belangeri<p>
+                <p>danio_rerio<p>
+                <p>anabas_testudineus<p>
+                <p>gadus_morhua<p>
+                <p>prolemur_simus<p>
+                <p>mus_musculus_balbcj<p>
+                <p>chrysemys_picta_bellii<p>
+                <p>sphenodon_punctatus<p>
+                <p>ictalurus_punctatus<p>
+                <p>ovis_aries<p>
+                <p>dromaius_novaehollandiae<p>
+                <p>callithrix_jacchus<p>
+                <p>pelodiscus_sinensis<p>
+                <p>ursus_americanus<p>
+                <p>mus_spicilegus<p>
+                <p>jaculus_jaculus<p>
+                <p>oreochromis_niloticus<p>
+                <p>cricetulus_griseus_chok1gshd<p>
+                <p>chlorocebus_sabaeus<p>
+                <p>mus_musculus_pwkphj<p>
+                <p>poecilia_reticulata<p>
+                <p>equus_caballus<p>
+                <p>takifugu_rubripes<p>
+                <p>monodelphis_domestica<p>
+                <p>melopsittacus_undulatus<p>
+                <p>pogona_vitticeps<p>
+                <p>nomascus_leucogenys<p>
+                <p>stegastes_partitus<p>
+                <p>amphiprion_percula<p>
+                <p>phascolarctos_cinereus<p>
+                <p>meleagris_gallopavo<p>
+                <p>ictidomys_tridecemlineatus<p>
+                <p>saimiri_boliviensis_boliviensis<p>
+                <p>seriola_dumerili<p>
+                <p>castor_canadensis<p>
+                <p>paramormyrops_kingsleyae<p>
+                <p>cricetulus_griseus_picr<p>
+                <p>xiphophorus_maculatus<p>
+                <p>microcebus_murinus<p>
+                <p>neolamprologus_brichardi<p>
+                <p>erinaceus_europaeus<p>
+                <p>nothoprocta_perdicaria<p>
+                <p>latimeria_chalumnae<p>
+                <p>equus_asinus_asinus<p>
+                <p>mus_musculus<p>
+                <p>pygocentrus_nattereri<p>
+                <p>cebus_capucinus<p>
+                <p>vulpes_vulpes<p>
+                <p>mus_spretus<p>
+                <p>urocitellus_parryii<p>
+                <p>marmota_marmota_marmota<p>
+                <p>drosophila_melanogaster<p>
+                <p>capra_hircus<p>
+                <p>cyprinodon_variegatus<p>
+                <p>canis_familiaris<p>
+                <p>pundamilia_nyererei<p>
+                <p>mus_musculus_nzohlltj<p>
+                <p>maylandia_zebra<p>
+                <p>octodon_degus<p>
+                <p>mus_musculus_129s1svimj<p>
+                <p>apteryx_rowi<p>
+                <p>labrus_bergylta<p>
+                <p>numida_meleagris<p>
+                <p>pan_paniscus<p>
+                <p>anolis_carolinensis<p>
+                <p>gambusia_affinis<p>
+                <p>bos_taurus<p>
+                <p>loxodonta_africana<p>
+                <p>lepidothrix_coronata<p>
+                <p>sarcophilus_harrisii<p>
+                <p>periophthalmus_magnuspinnatus<p>
+                <p>coturnix_japonica<p>
+                <p>pongo_abelii<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    2.2.- Endpoint: "/listSpecies?limit=10"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <body>
+                <h2>List Species page</h2>
+                <p>Species:</p><p>manacus_vitellinus<p>
+                <p>crocodylus_porosus<p>
+                <p>colobus_angolensis_palliatus<p>
+                <p>caenorhabditis_elegans<p>
+                <p>ursus_americanus<p>
+                <p>cavia_aperea<p>
+                <p>mus_pahari<p>
+                <p>ochotona_princeps<p>
+                <p>castor_canadensis<p>
+                <p>ailuropoda_melanoleuca<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    2.3.- Endpoint: "/listSpecies?limit=one"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <body>
+                <h2>An error occurred:</h2>
+                <p>The limit you introduced is invalid. Make sure you use a natural number for your limit.</p>
+
+                <a href= "main_page.html">Back to the main page</a>
+
+3.- /karyotype
+    3.1.- Endpoint: "/karyotype"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>karyotype</title>
+                </head>
+                <body>
+                <h2>Karyotype page</h2>
+                <p>Please introduce a species (you can check its name in the first part of the program):</p>
+                <form action="karyotype" method="get">
+                    Species name: <input type="text" name="specie">
+                    <br>
+                    <input type="submit" value="SEND">
+                    <br><br>
+                </form>
+                <a href= "main_page.html">Back to the main page</a>
+
+    3.2.- Endpoint: "/karyotype?specie=mouse"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>karyotype</title>
+                </head>
+                <body>
+                <h2>Karyotype page</h2>
+                <p>The karyotype for the species mouse is: <p><p>1<p>
+                <p>2<p>
+                <p>3<p>
+                <p>4<p>
+                <p>5<p>
+                <p>6<p>
+                <p>7<p>
+                <p>8<p>
+                <p>9<p>
+                <p>10<p>
+                <p>11<p>
+                <p>12<p>
+                <p>13<p>
+                <p>14<p>
+                <p>15<p>
+                <p>16<p>
+                <p>17<p>
+                127.0.0.1 - - [30/Jun/2019 16:06:21] "GET /karyotype?specie=mouse HTTP/1.1" 200 -
+                <p>18<p>
+                <p>19<p>
+                <p>X<p>
+                <p>Y<p>
+                <p>MT<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    3.3.- Endpoint: "/karyotype?specie=human"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>karyotype</title>
+                </head>
+                <body>
+                <h2>Karyotype page</h2>
+                <p>The karyotype for the species human is: <p><p>1<p>
+                <p>2<p>
+                <p>3<p>
+                <p>4<p>
+                <p>5<p>
+                <p>6<p>
+                <p>7<p>
+                <p>8<p>
+                <p>9<p>
+                <p>10<p>
+                <p>11<p>
+                <p>12<p>
+                <p>13<p>
+                <p>14<p>
+                <p>15<p>
+                <p>16<p>
+                <p>17<p>
+                <p>18<p>
+                <p>19<p>
+                <p>20<p>
+                <p>21<p>
+                <p>22<p>
+                <p>X<p>
+                <p>Y<p>
+                <p>MT<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    3.4.- Endpoint: "/karyotype?specie=" or "/karyotype?specie=unicorn"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <body>
+                <h2>An error occurred:</h2>
+                <p>The species you introduced is invalid.</p>
+
+
+                <a href= "main_page.html">Back to the main page</a>
+
+4.- /chromosomeLength:
+    4.1.- Endpoint = "/chromosomeLength"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>chromosomeLength</title>
+                </head>
+                <body>
+                <h2>Chromosome Length page</h2>
+                <p>Please introduce a species and the chromosome you want to analyze:</p>
+                <form action="chromosomeLength" method="get">
+                    Species name: <input type="text" name="specie">
+                    <br>
+                    Chromosome: <input type="text" name="chromo">
+                    <br>
+                    <input type="submit" value="SEND">
+                    <br><br>
+                </form>
+                <a href= "main_page.html">Back to the main page</a>
+
+    4.2.- Endpoint = "/chromosomeLength?specie=mouse;chromo=7"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>chromosomeLength</title>
+                </head>
+                <body>
+                <h2>Chromosome Length page</h2><p>The chromosome length for the chromosome 7 of the species mouse is: 145441459<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    4.3.- Endpoint: "/chromosomeLength?species=human;chromo=12"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>chromosomeLength</title>
+                </head>
+                <body>
+                <h2>Chromosome Length page</h2><p>The chromosome length for the chromosome 12 of the species human is: 133275309<p>
+                <a href= "main_page.html">Back to the main page</a>
+
+    4.4.- Endpoint: "/chromosomeLength?specie=unicorn;chromo=18"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <a href= "main_page.html">Back to the main page</a>
+                <body>
+                <h2>An error occurred:</h2>
+                <p> We couldn't find that chromosome in the chromosomes for that species.</p>
+
+                <a href= "main_page.html">Back to the main page</a>
+
+    4.5.- Endpoint: "/chromosomeLength?specie=human;chromo=three"
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <a href= "main_page.html">Back to the main page</a>
+                <body>
+                <h2>An error occurred:</h2>
+                <p> We couldn't find that chromosome in the chromosomes for that species.</p>
+
+                <a href= "main_page.html">Back to the main page</a>
+
+    4.5.- Endpoint: "/chromosomeLength?specie=;chromo="
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>listSpecies</title>
+                </head>
+                <a href= "main_page.html">Back to the main page</a>
+                <body>
+                <h2>An error occurred:</h2>
+                <p> You haven't introduced any species or chromosomes.</p>
+
+                <a href= "main_page.html">Back to the main page</a>
+
+
+5. Random endpoints
+    5.1.- Endpoints: "/menu", "/chromosome" , "specieslist", etc.
+            Output:
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Error/title>
+                </head>
+                <body>
+                <h2>Option not valid. </h2>
+                <a href= "main_page.html">Back to the main page</a>
+
