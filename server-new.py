@@ -79,6 +79,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(200)
 
             ls_contents += end
+
             self.send_header('Content-Type', 'text/html')
             self.send_header('Content-Length', len(str.encode(ls_contents)))
             self.end_headers()
@@ -128,6 +129,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(200)
 
             kt_contents += end
+
             self.send_header('Content-Type', 'text/html')
             self.send_header('Content-Length', len(str.encode(kt_contents)))
             self.end_headers()
@@ -205,6 +207,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(200)
 
             cl_contents += end
+
             self.send_header('Content-Type', 'text/html')
             self.send_header('Content-Length', len(str.encode(cl_contents)))
             self.end_headers()
@@ -257,6 +260,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(200)
 
             gs_contents += end
+
             self.send_header('Content-Type', 'text/html')
             self.send_header('Content-Length', len(str.encode(gs_contents)))
             self.end_headers()
@@ -474,7 +478,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
                 self.send_response(200)
 
             gl_contents += end
-            print(gl_contents)
+
             self.send_header('Content-Type', 'text/html')
             self.send_header('Content-Length', len(str.encode(gl_contents)))
             self.end_headers()
@@ -495,8 +499,6 @@ Handler = TestHandler
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("Serving at PORT", PORT)
 
-    # -- Main loop: Attend the client. Whenever there is a new
-    # -- clint, the handler is called
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
